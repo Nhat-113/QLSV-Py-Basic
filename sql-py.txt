@@ -1,0 +1,12 @@
+CREATE DATABASE QLSV;
+USE QLSV;
+CREATE TABLE STUDENTS(
+    ID INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    FULLNAME VARCHAR(255) NOT NULL
+);
+INSERT INTO students(`fullname`)
+VALUES
+    ('Le Van Cuong'),
+    ('Duong Khanh Linh'),
+    ('Pham Vuong Cong Anh')
+    ('Dao Thi Anh Hong')
